@@ -16,10 +16,10 @@ def myfunction(n):
 akib=myfunction(5)
 print(akib(10))
 class MyClass:
-     def __init__(self,name,age):
+     def __init__(self,name,number):
          self.age=age
-         self.name=name
+         self.number=number
 p1=MyClass("Akib",10)
-print(p1.name)
+print(p1.number)
 print(p1.age)
 
